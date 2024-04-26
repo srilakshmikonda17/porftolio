@@ -1,0 +1,165 @@
+[
+    {
+        "name" : "Java",
+        "icon" : "https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
+    },
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+    },{
+        "name" : "C",
+        "icon" : "https://img.icons8.com/color/48/c-programming.png"
+    },
+    {
+        "name" : "C++",
+        "icon" : "https://img.icons8.com/color/48/c-programming.png"
+    },
+    {
+        "name" : "C#",
+        "icon" : "https://img.icons8.com/color/48/c-programming.png"
+    },
+    {
+        "name" : "TCL",
+        "icon" : "https://img.icons8.com/color/48/javascript--v1.png"
+    }, 
+    {
+        "name" : "PySpark",
+        "icon" : "https://img.icons8.com/color/48/javascript--v1.png"
+    },{
+        "name" : "HTML",
+        "icon" : "https://img.icons8.com/color/48/html-5--v1.png"
+    },{
+        "name" : "CSS",
+        "icon" : "https://img.icons8.com/color/48/css.png"
+    },
+    {
+        "name" : "MongoDB",
+        "icon" : "https://img.icons8.com/color/48/mongodb.png"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+    {
+        "name": "SQLServer",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+    {
+        "name" : "HDFS",
+        "icon" : "https://img.icons8.com/color/48/spring-logo.png"
+    },
+    {
+        "name" : "Spark",
+        "icon" : "https://img.icons8.com/color/48/spring-logo.png"
+    },
+    {
+        "name" : "Snowflake",
+        "icon" : "https://img.icons8.com/color/48/spring-logo.png"
+    },
+    {
+        "name" : "Apache Airflow",
+        "icon" : "https://img.icons8.com/color/48/spring-logo.png"
+    },
+    {
+        "name" : "Apache Kafka",
+        "icon" : "https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-apache-a-free-and-open-source-cross-platform-web-server-software-logo-color-tal-revivo.png"
+    },
+    {
+        "name" : "Pandas",
+        "icon" : "https://img.icons8.com/color/48/pandas.png"
+    },{
+        "name" : "Flask",
+        "icon" : "https://img.icons8.com/color/48/flask.png"
+    },{
+        "name" : "REST",
+        "icon" : "https://img.icons8.com/color/48/api-settings.png"
+    },{
+        "name" : "AWS",
+        "icon" : "https://img.icons8.com/color/48/amazon-web-services.png"
+    },
+    {
+        "name" : "SPICE",
+        "icon" : "https://img.icons8.com/color/48/amazon-web-services.png"
+    },
+    {
+        "name" : "FastSPICE",
+        "icon" : "https://img.icons8.com/color/48/amazon-web-services.png"
+    },
+    {
+        "name" : "FastAPI",
+        "icon" : "https://img.icons8.com/color/48/flask.png"
+    },
+    {
+        "name" : "Selenium",
+        "icon" : "https://img.icons8.com/color/48/flask.png"
+    },
+    {
+        "name" : "Jira",
+        "icon" : "https://img.icons8.com/color/48/flask.png"
+    },
+    {
+        "name" : "Firebase",
+        "icon" : "https://img.icons8.com/color/48/google-firebase-console.png"
+    },{
+        "name" : "Git",
+        "icon" : "https://img.icons8.com/color/48/git.png"
+    },{
+        "name" : "BitBucket",
+        "icon" : "https://img.icons8.com/color/48/bitbucket.png"
+    },{
+        "name" : "Postman",
+        "icon" : "https://img.icons8.com/pulsar-color/48/postman-api.png"
+    },{
+        "name" : "FFMpeg",
+        "icon" : "https://img.icons8.com/color/48/ffmpeg.png"
+    },{
+        "name" : "Docker",
+        "icon" : "https://img.icons8.com/color/48/docker.png"
+    },{
+        "name" : "NumPy",
+        "icon" : "https://img.icons8.com/color/48/numpy.png"
+    },{
+        "name" : "Confluence",
+        "icon" : "https://img.icons8.com/color/48/confluence--v2.png"
+    },
+    {
+        "name": "Tableau",
+        "icon": "https://img.icons8.com/color/48/tableau-software.png"
+    }, 
+    {
+        "name": "PowerBI",
+        "icon": "https://img.icons8.com/color/48/power-bi.png"
+    }, 
+    {
+        "name": "VS Code",
+        "icon": " https://img.icons8.com/fluency/48/visual-studio.png"
+    },
+    {
+        "name": "WordPress",
+        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+    },  
+    {
+        "name": "Architecture",
+        "icon": "https://img.icons8.com/external-icongeek26-outline-gradient-icongeek26/48/external-structure-science-and-technology-icongeek26-outline-gradient-icongeek26.png"
+    },
+    {
+        "name": "Video Edit",
+        "icon": "https://img.icons8.com/fluency/48/video.png"
+    },
+    {
+        "name": "Solutions",
+        "icon": "https://img.icons8.com/color/48/solve-problem.png"
+    },
+    {
+        "name": "Insights",
+        "icon": "https://img.icons8.com/color/48/light.png"
+    },
+    {
+        "name": "Research",
+        "icon": "https://img.icons8.com/color/48/fine-print.png"
+    },
+    {
+        "name": "Leadership",
+        "icon": "https://img.icons8.com/color/48/meeting-room.png" 
+    }
+]
