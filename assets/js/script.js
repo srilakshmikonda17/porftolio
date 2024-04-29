@@ -96,7 +96,7 @@ async function fetchData(type = "skills") {
     let response
     type === "skills" ?
         response = [
-            {
+            /*{
                 "name" : "Java",
                 "icon" : "https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
             },
@@ -107,7 +107,7 @@ async function fetchData(type = "skills") {
                 "name" : "C",
                 "icon" : "https://img.icons8.com/color/48/c-programming.png"
             },
-            /*{
+            {
                 "name" : "C++",
                 "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
             },
@@ -122,7 +122,7 @@ async function fetchData(type = "skills") {
             {
                 "name" : "PySpark",
                 "icon" : "https://img.icons8.com/color/48/javascript--v1.png"
-            },*/
+            },
             {
                 "name" : "HTML",
                 "icon" : "https://img.icons8.com/color/48/html-5--v1.png"
@@ -141,7 +141,7 @@ async function fetchData(type = "skills") {
            /* {
                 "name": "SQLServer",
                 "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-            },*/
+            },
             {
                 "name" : "HDFS",
                 "icon" : "https://img.icons8.com/color/48/spring-logo.png"
@@ -158,7 +158,7 @@ async function fetchData(type = "skills") {
             {
                 "name" : "Apache Airflow",
                 "icon" : "https://img.icons8.com/color/48/spring-logo.png"
-            },*/
+            },
             {
                 "name" : "Apache Kafka",
                 "icon" : "https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-apache-a-free-and-open-source-cross-platform-web-server-software-logo-color-tal-revivo.png"
@@ -185,7 +185,7 @@ async function fetchData(type = "skills") {
             {
                 "name" : "FastSPICE",
                 "icon" : "https://img.icons8.com/color/48/amazon-web-services.png"
-            },*/
+            },
             {
                 "name" : "FastAPI",
                 "icon" : "https://img.icons8.com/color/48/flask.png"
@@ -197,7 +197,7 @@ async function fetchData(type = "skills") {
             {
                 "name" : "Jira",
                 "icon" : "https://img.icons8.com/color/48/flask.png"
-            },*/
+            },
             {
                 "name" : "Firebase",
                 "icon" : "https://img.icons8.com/color/48/google-firebase-console.png"
@@ -234,9 +234,73 @@ async function fetchData(type = "skills") {
             {
                 "name": "VS Code",
                 "icon": " https://img.icons8.com/fluency/48/visual-studio.png"
+            },*/
+            {
+                "name": "AutoCAD",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            }, 
+            {
+                "name": "Civil 3D",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            }, 
+            {
+                "name": "Primavera P6",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
             },
             {
-                "name": "WordPress",
+                "name": "SketchUp",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
+                "name": "Bluebeam Revu 21",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
+                "name": "WinEst",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
+                "name": " STAAD Pro",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
+                "name": " ArcGIS Pro",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            }, 
+            {
+                "name": " ArchiCAD",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
+                "name": " FormIT",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            }, 
+            {
+                "name": " MS Project",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
+                "name": " Adobe InDesign",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            }, 
+            {
+                "name": "Microsoft Office Suite",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
+                "name": "Google Earth Pro",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
+                "name": "Procore",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
+                "name": "SAP2000",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
+                "name": "Technical Writing",
                 "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
             },  
             {
@@ -267,65 +331,26 @@ async function fetchData(type = "skills") {
         :
         response =[
             {
-              "name": "Youtube Analysis - AWS",
-              "desc": "Youtube Analysis: securely manages, streamlines, and performs analysis on the structured and semi-structured YouTube videos data based on the video categories and the trending metrics",
+              "name": "Cost & Production Analysis for Syphon Reservoir",
+              "desc": "Estimated the total cost of the project, the equipment required, and location of dumpsites using Revit and Google Earth Pro",
               "image": "Youtube",
               "category": "visual",
-              "links": {
-                "view": "https://github.com/pradhatrivemula/Youtube-analysis-AWS",
-                "code": "https://github.com/pradhatrivemula/Youtube-analysis-AWS"
-              }
+             // "links": {
+               // "view": "https://github.com/pradhatrivemula/Youtube-analysis-AWS",
+               // "code": "https://github.com/pradhatrivemula/Youtube-analysis-AWS"
+             // }
             },
             {
-                "name": "Event Finder",
-                "desc": "Our event finder app helps users to find events happening in their area or in a specific location of interest. These events include concerts, festivals, sports games and more.",
+                "name": "Self-Healing Capability of Concrete",
+                "desc": "Published a research paper on “Self-healing Capability of Concrete under Three Dif erent Environmental Exposures.",
                 "image": "Event",
                 "category": "visual",
-                "links": {
-                  "view": "https://github.com/pradhatrivemula/EventFinder",
-                  "code": "https://github.com/pradhatrivemula/EventFinder"
-                }
-              },
-              {
-                "name": "Reddit Data Pipeline",
-                "desc": "This project provides a comprehensive data pipeline solution to extract, transform, and load (ETL) Reddit data into a Redshift data warehouse.",
-                "image": "reddit",
-                "category": "visual",
-                "links": {
-                  "view": "https://github.com/pradhatrivemula/RedditDataPipeline",
-                  "code": "https://github.com/pradhatrivemula/RedditDataPipeline"
-                }
-              },
-              {
-                "name": "Diabetic Retinopathy Detection",
-                "desc": "This project utilizes Apache Spark, hosted on an AWS distributed Hadoop cluster, to detect diabetic retinopathy in eye images.",
-                "image": "Diabetic",
-                "category": "visual",
-                "links": {
-                  "view": "https://github.com/pradhatrivemula/DetectionOfDiabeticRetinopathyUsingBigData",
-                  "code": "https://github.com/pradhatrivemula/DetectionOfDiabeticRetinopathyUsingBigData"
-                },
-              },{
-                "name": "Therapeutic Music Player",
-                "desc": "This project integrates facial emotion recognition with a music player to create an emotion-aware music experience.",
-                "image": "Therapeutic",
-                "category": "visual",
-                "links": {
-                  "view": "https://github.com/pradhatrivemula/TherapeuticMusicPlayer",
-                  "code": "https://github.com/pradhatrivemula/TherapeuticMusicPlayer"
-                },
-              },
-              
-              {
-                "name": "Cloud Service Access Management System",
-                "desc": "A management system built with FastAPI and SQLAlchemy, designed to handle user subscriptions, permissions, and API usage tracking.",
-                "image": "Cloud",
-                "category": "visual",
-                "links": {
-                  "view": "https://github.com/pradhatrivemula/Cloud-Service-Access-Management-System",
-                  "code": "https://github.com/pradhatrivemula/Cloud-Service-Access-Management-System"
-                }
-              }]
+              //  "links": {
+                //  "view": "https://github.com/pradhatrivemula/EventFinder",
+                //  "code": "https://github.com/pradhatrivemula/EventFinder"
+              //  }
+              }
+              ]
     const data = await response;
     return data;
 }
@@ -361,16 +386,18 @@ function showProjects(projects) {
         </div>
         <div class="desc">
           <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View/Code</a>
-          </div>
+         
         </div>
       </div>
     </div>`
     });
     projectsContainer.innerHTML = projectHTML;
 
-    // <!-- tilt js effect starts -->
+    // <!-- tilt js effect starts
+   // <div class="btns">
+       //     <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View/Code</a>
+       //   </div>
+   // -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
         max: 15,
     });
