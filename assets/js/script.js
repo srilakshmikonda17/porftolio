@@ -284,6 +284,22 @@ async function fetchData(type = "skills") {
                 "icon": "https://img.icons8.com/color/48/tableau-software.png"
             }, 
             {
+                "name": "Revit 2024",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
+                "name": "Adobe Illustrator",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
+                "name": "Adobe Photoshop",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
+                "name": "Solidworks",
+                "icon": "https://img.icons8.com/color/48/tableau-software.png"
+            },
+            {
                 "name": "Microsoft Office Suite",
                 "icon": "https://img.icons8.com/color/48/tableau-software.png"
             },
@@ -335,25 +351,26 @@ async function fetchData(type = "skills") {
               "desc": "Estimated the total cost of the project, the equipment required, and location of dumpsites using Revit and Google Earth Pro",
               "image": "Youtube",
               "category": "visual",
-             // "links": {
+              "links": {
                // "view": "https://github.com/pradhatrivemula/Youtube-analysis-AWS",
                // "code": "https://github.com/pradhatrivemula/Youtube-analysis-AWS"
-             // }
+              }
             },
             {
                 "name": "Self-Healing Capability of Concrete",
                 "desc": "Published a research paper on “Self-healing Capability of Concrete under Three Dif erent Environmental Exposures.",
                 "image": "Event",
                 "category": "visual",
-              //  "links": {
-                //  "view": "https://github.com/pradhatrivemula/EventFinder",
+                "links": {
+                  "view": "https://www.ijaresm.com/self-healing-ofconcrete-with-crystalline-admixture-and-super-absorbent-polymer",
                 //  "code": "https://github.com/pradhatrivemula/EventFinder"
-              //  }
+               }
               }
               ]
     const data = await response;
     return data;
 }
+
 
 function showSkills(skills) {
     let skillsContainer = document.getElementById("skillsContainer");
@@ -386,7 +403,9 @@ function showProjects(projects) {
         </div>
         <div class="desc">
           <p>${project.desc}</p>
-         
+          <div class="btns">
+              <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+           </div>
         </div>
       </div>
     </div>`
@@ -394,9 +413,7 @@ function showProjects(projects) {
     projectsContainer.innerHTML = projectHTML;
 
     // <!-- tilt js effect starts
-   // <div class="btns">
-       //     <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View/Code</a>
-       //   </div>
+   // 
    // -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
         max: 15,
