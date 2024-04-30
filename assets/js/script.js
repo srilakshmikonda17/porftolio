@@ -352,7 +352,7 @@ async function fetchData(type = "skills") {
               "image": "Youtube",
               "category": "visual",
               "links": {
-               // "view": "https://github.com/pradhatrivemula/Youtube-analysis-AWS",
+                "view": "https://github.com/pradhatrivemula/Youtube-analysis-AWS",
                // "code": "https://github.com/pradhatrivemula/Youtube-analysis-AWS"
               }
             },
@@ -362,7 +362,7 @@ async function fetchData(type = "skills") {
                 "image": "Event",
                 "category": "visual",
                 "links": {
-                  "view": "https://www.ijaresm.com/self-healing-ofconcrete-with-crystalline-admixture-and-super-absorbent-polymer",
+                  "view": "https://drive.google.com/file/d/1bAZHT5sBh_x9w8uXtUKTmtqHO_qZL9KS/view?usp=sharing",
                 //  "code": "https://github.com/pradhatrivemula/EventFinder"
                }
               }
