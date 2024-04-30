@@ -372,6 +372,24 @@ async function fetchData(type = "skills") {
                 "links": {
                   "view": "https://docs.google.com/presentation/d/14LXKr70o8P3TWfr9lSCj30-viEa8En7a/edit?usp=sharing&ouid=112079657995406830201&rtpof=true&sd=true",
                }
+              },
+              {
+                "name": "Lake Tahoe",
+                "desc": "A complete Geotechnical investigation report on the soil layers near Lake Tahoe",
+                "image": "Tahoe",
+                "category": "visual",
+                "links": {
+                  "view": "https://docs.google.com/document/d/1bmkE2na6gXRwkmjzhdPAUAufpIe2-Mj7/edit?usp=sharing&ouid=112079657995406830201&rtpof=true&sd=true",
+               }
+              },
+              {
+                "name": "Slope Stability Analysis",
+                "desc": " Slope and Stability Analysis of Soil under Rainfall and Seismic Loading Conditions",
+                "image": "slope",
+                "category": "visual",
+                "links": {
+                  "view": "https://drive.google.com/file/d/1hXmg-4cIYgUrQRedI_98nriFGjBAMXjJ/view?usp=sharing",
+               }
               }
               ]
     const data = await response;
